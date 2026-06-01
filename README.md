@@ -16,4 +16,5 @@ This repositry serves as a digital notebook of my theory prep and a portfolio of
 ---
 
 ## 📬 Contact / Let's Connect!
-If you like what you see and are looking for a dedicated, hands-on IT technician who loves ripping things apart to see how they work, let's connect on [LinkedIn]https://www.linkedin.com/in/ishant-singh-01ba14118/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BW8KEfXC4TXOi2FLDNkBFkw%3D%3D
+If you like what you see and are looking for a dedicated, hands-on IT technician who loves ripping things apart to see how they work, let's connect on connect on [LinkedIn](https://www.linkedin.com/in/ishant-singh-01ba14118/)
+
