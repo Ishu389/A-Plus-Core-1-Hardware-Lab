@@ -14,32 +14,36 @@ I bought a cheap used HP tower locally to mess around with without breaking my m
 
 ---
 
+## 🔍 Initial Inspection & Case Layout
+
+![Top-down view of components inside the chassis structure](assembled-chassis.jpeg)
+*Figure 1: Initial look inside the chassis. Noted the 3.5" Western Digital HDD bracket mounted up top, the dual-stick RAM placement, and the OEM power routing before starting disassembly.*
+
+---
+
 ## 🛠️ The Disassembly Process
 
 ![Full system teardown showing chassis, motherboard, and expansion cards laid out](teardown-overview.JPEG)
-*Figure 1: The complete teardown layout. Stripped the OEM chassis down completely to inspect the power routing and individual components.*
+*Figure 2: The complete teardown layout. Stripped the OEM chassis down completely to isolate the motherboard and inspect individual expansion cards.*
 
 1. **Safety First:** Unplugged the system and held the power button for 10 seconds to drain any leftover power in the capacitors. 
 2. **The Rip-Out:** 
    * Disconnected all SATA data cables and the chunky 24-pin ATX power connector.
-   * Unscrewed the stock CPU cooler. The thermal paste was absolutely bone-dry—practically turned to cement. 
-   * Popped the load lever on the LGA 1156 socket to inspect the pins.
-3. **Deep Cleaning:** Used 91% Isopropyl alcohol and a microfiber cloth to dissolve the crusty thermal paste off the CPU lid and the copper base of the heat sink. Used compressed air to blow out dust from the cooling fins, the expansion cards, and the RAM slots.
+   * Unscrewed the stock CPU cooler to inspect the thermal interface material.
+   * Popped the load lever on the LGA 1156 socket to check for any bent motherboard pins.
 
 ![MSI MS-7613 Motherboard and CPU with dried thermal paste](motherboard.JPEG)
-*Figure 2: Close-up of the MSI MS-7613 motherboard right after removing the stock cooler, showing heavily degraded thermal compound on the Intel CPU.*
+*Figure 3: Close-up of the MSI MS-7613 motherboard. The factory thermal paste was completely bone-dry—practically turned to cement and severely degrading thermal performance.*
 
 ---
 
-## 🔧 Reassembly & Component Inspection
+## 🔧 Reassembly & Real-World Troubleshooting
 
-![Top-down view of components inside the chassis structure](assembled-chassis.jpeg)
-*Figure 3: Inside the case layout showing the 3.5" Western Digital HDD bracket mounted up top, the dual-stick RAM placement, and the motherboard power delivery lines.*
-
-* **Thermal Paste:** Applied a fresh pea-sized drop of thermal compound right in the middle of the CPU integrated heat spreader. Mounted the cooler back down in a cross-pattern to keep the pressure even.
+* **The Cleanup:** Used 91% Isopropyl alcohol and a microfiber cloth to fully dissolve and scrub the crusty thermal paste off the CPU integrated heat spreader and the cooler base. 
+* **Fresh Compound:** Applied a fresh pea-sized drop of thermal compound right in the middle of the CPU lid and mounted the cooler back down in a cross-pattern for even pressure.
 * **The Mistake (Human Error!):** First time I put the RAM back in, I didn't push hard enough on one side. The clip didn't click. 
-* **The Result:** When I plugged the monitor in and hit power, the fans spun up, but the screen stayed black. No display, and the motherboard gave a memory error beep sequence.
+* **The Result:** When I plugged the monitor in and hit power, the fans spun up, but the screen stayed black. The motherboard gave a repeating memory error beep sequence.
 * **The Fix:** Recognised the beep code as a RAM seating issue. Powered down, pulled the memory sticks out, reseated them firmly into the matching slots until both sides clicked, and tried again.
 
 ## 📺 Boot Results
-Success! The machine cleared the Power-On Self-Test (POST), loaded into the BIOS successfully, and correctly identified the hardware and the storage drive.
+Success! After resolving the RAM seating issue, the machine cleared the Power-On Self-Test (POST), loaded into the BIOS successfully, and correctly identified the hardware components and the 1TB storage drive.
