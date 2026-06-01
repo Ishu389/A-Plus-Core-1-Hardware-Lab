@@ -10,7 +10,7 @@ This repositry serves as a digital notebook of my theory prep and a portfolio of
 
 ## 🧰 Core Skills Demonstrated
 * **Hardware Architecture:** Full system assembly, component sourcing, and ESD safety.
-* **Networking & Troubleshooting:** IP configuration, command-line diagnostics (`ping`, `ifconfig`/`ip`), and routing.
+* **Networking & Troubleshooting:** IP configuration, command-line diagnostics (`ping`, `ipconfig`), and routing.
 * **Storage Systems:** RAID arrays configuration and storage media deployment.
 
 ---
